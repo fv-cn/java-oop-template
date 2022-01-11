@@ -23,6 +23,7 @@ public class SimpleAuthorRepository implements AuthorRepository {
             authors = Arrays.copyOf(temp, temp.length);
             return true;
         }
+
         return false;
     }
 
